@@ -12,6 +12,7 @@
 # `[(title, director, year, [actress_one, actor_two, ...]), ...]`
 from typing import List, Tuple
 
+# tuples are immutable
 movie_db: List[Tuple[str, str, int, List[str]]] = [
     (
         "amarcord",  # title
